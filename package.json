@@ -1,0 +1,24 @@
+{
+  "name": "swc_fests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "supabase:login": "supabase login",
+    "supabase:init": "supabase init",
+    "supabase:link": "supabase link --project-ref vthjdzghtgswqupllgpw",
+    "supabase:db:pull": "supabase db pull",
+    "supabase:db:push": "supabase db push",
+    "supabase:db:reset": "supabase db reset",
+    "supabase:start": "supabase start && supabase status",
+    "snaplet:setup": "snaplet auth setup",
+    "snaplet:restore": "snaplet snapshot restore --no-reset"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "supabase": "^1.113.3"
+  }
+}
